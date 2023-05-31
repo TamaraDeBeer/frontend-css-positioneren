@@ -1,8 +1,60 @@
+
+
+/*lichtgrijs #F7F7F7 en donkergrijs #d3d3d3*/
+
 .recipe-card {
     /* "auto" aan de zijkanten zorgt ervoor dat het element in het midden komt te staan*/
     margin: 80px auto;
     /* Dit element heeft een vaste breedte van 350 pixels */
     width: 350px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+    overflow: hidden;
 }
 
-/* - Vul dit document aan met jouw eigen css! - */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.love {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.pastasalade-img {
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    background-color: #F7F7F7;
+    padding-block: 5px;
+    margin-top: -7px;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+span {
+    margin-inline: 8px;
+    font-size: 14px;
+    /*background-color: #F7F7F7;*/
+    /*font-size: 15px;*/
+    /*margin: -3px;*/
+    /*padding: 10px;*/
+}
+
+.icon {
+    height: 12px;
+    margin-inline: 5px;
+}
